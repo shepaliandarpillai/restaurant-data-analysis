@@ -41,18 +41,6 @@ The dataset contains information about restaurants including:
 - Restaurant locations tend to cluster in certain areas, showing high restaurant density in popular regions.
 - Several restaurant chains appear multiple times in the dataset, indicating brand expansion across locations.
 
-## Project Structure
-plt.figure(figsize=(8,5))
-plt.hist(df['Aggregate rating'], bins=10)
-plt.title("Distribution of Aggregate Ratings")
-plt.xlabel("Aggregate Rating")
-plt.ylabel("Number of Restaurants")
 
-plt.savefig("rating_distribution.png")
-plt.figure(figsize=(8,5))
-plt.hist(df['Aggregate rating'], bins=10)
-plt.title("Distribution of Aggregate Ratings")
-plt.xlabel("Aggregate Rating")
-plt.ylabel("Number of Restaurants")
 
 
